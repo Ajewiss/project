@@ -1,4 +1,8 @@
-funciton pannellistsplitter{
-	const pannellist = "F120","F100","F345","FW34"
-     splice="1,3"
+function insRow(id="list") {
+    var x = document.getElementById("list").insertRow(0);
+    var y = x.insertCell(0);
+    var z = x.insertCell(1);
+    y.innerHTML = z.innerHTML = "New";
 }
+
+
